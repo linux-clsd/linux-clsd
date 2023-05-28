@@ -1,1 +1,1 @@
-![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/linux-clsd/linux-clsd)
+![GitHub Repo stars](https://img.shields.io/github/stars/linux-clsd/linux-clsd?style=social)
