@@ -1,1 +1,1 @@
-![GitHub Repo stars](https://img.shields.io/github/stars/linux-clsd/linux-clsd?style=plastic)
+![GitHub Repo stars](https://img.shields.io/github/stars/linux-clsd/linux-clsd?style=plastic) ![GitHub followers](https://img.shields.io/github/followers/linux-clsd?style=plastic)
