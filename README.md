@@ -18,3 +18,5 @@ El programa cuenta con una interfaz intuitiva y fácil de usar, lo que permite a
 5. Auditoría de seguridad: Con esta función, Linux-clsd permite realizar auditorías de seguridad completas en tu sistema Linux. Puedes obtener informes detallados sobre las configuraciones de seguridad, la actividad del sistema y los eventos relevantes, lo que facilita la identificación de posibles áreas de mejora.
 
 En resumen, Linux-clsd es un programa esencial para cualquier usuario de Linux que se preocupe por la seguridad de su sistema. Al proporcionar un conjunto de herramientas de seguridad integrales y una protección proactiva, Linux-clsd te ayuda a salvaguardar tu sistema Linux contra amenazas cibernéticas y mantener la integridad de tus datos.
+
+![image](https://github.com/linux-clsd/linux-clsd/assets/134888676/cbb2d38d-a14f-4b5d-beea-fb07464b0ca7)
