@@ -117,7 +117,7 @@ def mostrar_resultado():
 
 # Crear la ventana principal
 ventana_principal = tk.Tk()
-ventana_principal.title("Explorador de archivos")
+ventana_principal.title("Linux-CLSD 📂")
 
 # Crear controles de la interfaz gráfica
 frame_ruta = tk.Frame(ventana_principal)
