@@ -29,4 +29,5 @@ En resumen, Linux-clsd es un programa esencial para cualquier usuario de Linux q
 - Clona el repositorio  ``` git clone https://github.com/linux-clsd/linux-clsd.git```
 - ```cd linux-clsd```
 - ```python3 linuxclsd.py```
+
 ![image](https://github.com/linux-clsd/linux-clsd/assets/134888676/cfec19b6-7176-43bc-8730-8b9b659f5874)
