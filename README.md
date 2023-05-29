@@ -19,10 +19,5 @@ El programa cuenta con una interfaz intuitiva y fácil de usar, lo que permite a
 
 En resumen, Linux-clsd es un programa esencial para cualquier usuario de Linux que se preocupe por la seguridad de su sistema. Al proporcionar un conjunto de herramientas de seguridad integrales y una protección proactiva, Linux-clsd te ayuda a salvaguardar tu sistema Linux contra amenazas cibernéticas y mantener la integridad de tus datos.
 
-## Compatible con
-![image](https://github.com/linux-clsd/linux-clsd/assets/134888676/cbb2d38d-a14f-4b5d-beea-fb07464b0ca7)
-
-![image](https://github.com/linux-clsd/linux-clsd/assets/134888676/64ac2945-62e5-47ac-9608-4b9d58f647d5)
-
 ## Requisitos
 <p align="left"> <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a> <a href="https://www.linux.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> </p>
