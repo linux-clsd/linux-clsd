@@ -16,3 +16,5 @@ En Linux CLSD, sabemos que confiar en la seguridad de tus equipos es fundamental
 Nos apasiona proteger tu futuro digital. Confía en nosotros para mantener tus sistemas Linux seguros y confiables, permitiéndote enfocarte en lo más importante: hacer crecer tu negocio.
 
 Comunícate con nosotros hoy mismo y descubre cómo podemos ayudarte a garantizar la seguridad de tus equipos Linux. En Linux CLSD, estamos comprometidos con tu tranquilidad y éxito. ¡Estamos aquí para ti en cada paso del camino!
+
+### [Open source <--](https://github.com/linux-clsd/linux-clsd/wiki/Contribuci%C3%B3n-y-participaci%C3%B3n)
