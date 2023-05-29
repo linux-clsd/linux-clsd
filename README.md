@@ -16,6 +16,3 @@ En Linux CLSD, sabemos que confiar en la seguridad de tus equipos es fundamental
 Nos apasiona proteger tu futuro digital. Confía en nosotros para mantener tus sistemas Linux seguros y confiables, permitiéndote enfocarte en lo más importante: hacer crecer tu negocio.
 
 Comunícate con nosotros hoy mismo y descubre cómo podemos ayudarte a garantizar la seguridad de tus equipos Linux. En Linux CLSD, estamos comprometidos con tu tranquilidad y éxito. ¡Estamos aquí para ti en cada paso del camino!
-
-## Requisitos
-<p align="left"> <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a> <a href="https://www.linux.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> </p>
