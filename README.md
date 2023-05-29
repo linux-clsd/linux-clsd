@@ -17,4 +17,4 @@ El script "Linux-CLSD" es una herramienta esencial para los usuarios de Linux. C
 - ```python3 linuxclsd.py```
 - 🎉🎉🎉
 
-![image](https://github.com/linux-clsd/linux-clsd/assets/134888676/cfec19b6-7176-43bc-8730-8b9b659f5874)
+![image](https://github.com/linux-clsd/linux-clsd/assets/134888676/9698fa91-0136-4017-8201-b98482506173)
