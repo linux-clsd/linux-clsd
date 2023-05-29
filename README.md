@@ -1,8 +1,11 @@
 # Linux CLSD 🔒
 
+| [¿Quien somos?](#¿quien-somos) | [Acerca de](#acerca-de) | [Productos](#productos) | [Contacto](#contacto) |
+
+------------------------------------------------------------------------------------------------------
 ![GitHub Repo stars](https://img.shields.io/github/stars/linux-clsd/linux-clsd?style=plastic) ![GitHub followers](https://img.shields.io/github/followers/linux-clsd?style=plastic) ![Uptime Robot status](https://img.shields.io/uptimerobot/status/m794441368-3749853622b1e76cd00e5292?style=plastic) ![Uptime Robot ratio (7 days)](https://img.shields.io/uptimerobot/ratio/7/m794441368-3749853622b1e76cd00e5292?style=plastic) ![GitHub last commit](https://img.shields.io/github/last-commit/linux-clsd/linux-clsd?style=plastic) ![GitHub release (latest by date)](https://img.shields.io/github/v/release/linux-clsd/linux-clsd) ![Snyk Vulnerabilities for GitHub Repo](https://img.shields.io/snyk/vulnerabilities/github/linux-clsd/linux-clsd?style=plastic)
 
-## Quien somos?
+## ¿Quien somos?
 En Linux CLSD entendemos la importancia de proteger tus sistemas operativos Linux de las crecientes amenazas cibernéticas. Nuestra misión es brindarte soluciones de seguridad de vanguardia, combinadas con un enfoque cercano y profesional que te brinde la confianza absoluta en la protección de tus equipos.
 
 Nuestro equipo altamente capacitado en seguridad informática está comprometido con tu tranquilidad. Trabajamos mano a mano contigo para comprender tus necesidades específicas y diseñar estrategias personalizadas para mantener tu entorno Linux seguro y protegido.
