@@ -25,7 +25,7 @@ En resumen, Linux-clsd es un programa esencial para cualquier usuario de Linux q
 ## Como empezar
 - Instalar [Python](https://python.org)
 - Instalar [Git](https://git-scm.com/)
-- Ejecuta 
-```
-f
-```
+- Ejecuta  ```sudo apt-get install python3-tk```
+- Clona el repositorio  ``` git clone https://github.com/linux-clsd/linux-clsd.git```
+- ```cd linux-clsd```
+- ```python3 linuxclsd.py``` 
