@@ -17,4 +17,4 @@ Nos apasiona proteger tu futuro digital. Confía en nosotros para mantener tus s
 
 Comunícate con nosotros hoy mismo y descubre cómo podemos ayudarte a garantizar la seguridad de tus equipos Linux. En Linux CLSD, estamos comprometidos con tu tranquilidad y éxito. ¡Estamos aquí para ti en cada paso del camino!
 
-### [Participa para desarrollar con nosotros el software <--](https://github.com/linux-clsd/linux-clsd/wiki/Contribuci%C3%B3n-y-participaci%C3%B3n)
+### [Participa para desarrollar con nosotros el software <--](https://github.com/linux-clsd/linux-clsd/issues/2)
