@@ -106,43 +106,67 @@ def mostrar_resultado():
     ventana_resultado = tk.Toplevel(ventana_principal)
     ventana_resultado.title("Resultado")
 
-    etiqueta_resultado = tk.Label(ventana_resultado, text=resultado, justify=tk.LEFT)
-    etiqueta_resultado.pack(padx=10, pady=10)
+    scrollbar = tk.Scrollbar(ventana_resultado)
+    scrollbar.pack(side=tk.RIGHT, fill=tk.Y)
+
+    resultado_text = tk.Text(ventana_resultado, wrap=tk.WORD, yscrollcommand=scrollbar.set)
+    resultado_text.insert(tk.END, resultado)
+    resultado_text.pack(side=tk.LEFT, fill=tk.BOTH, expand=True)
+
+    scrollbar.config(command=resultado_text.yview)
 
 # Crear la ventana principal
 ventana_principal = tk.Tk()
 ventana_principal.title("Explorador de archivos")
 
 # Crear controles de la interfaz gráfica
-etiqueta_ruta = tk.Label(ventana_principal, text="Ruta:")
-etiqueta_ruta.pack(pady=10)
+frame_ruta = tk.Frame(ventana_principal)
+frame_ruta.pack(pady=10)
 
-texto_ruta = tk.Text(ventana_principal, height=1, width=30)
-texto_ruta.pack()
+etiqueta_ruta = tk.Label(frame_ruta, text="Ruta:")
+etiqueta_ruta.pack(side=tk.LEFT)
 
-boton_seleccionar_carpeta = tk.Button(ventana_principal, text="Seleccionar carpeta", command=abrir_dialogo_seleccionar_carpeta)
-boton_seleccionar_carpeta.pack(pady=10)
+texto_ruta = tk.Text(frame_ruta, height=1, width=30)
+texto_ruta.pack(side=tk.LEFT)
+
+boton_seleccionar_carpeta = tk.Button(frame_ruta, text="Seleccionar carpeta", command=abrir_dialogo_seleccionar_carpeta)
+boton_seleccionar_carpeta.pack(side=tk.LEFT)
+
+frame_seleccion = tk.Frame(ventana_principal)
+frame_seleccion.pack(pady=10)
 
 seleccion = tk.IntVar()
 seleccion.set(1)
 
-radiobutton_lista = tk.Radiobutton(ventana_principal, text="Listar archivos y directorios", variable=seleccion, value=1)
+radiobutton_lista = tk.Radiobutton(frame_seleccion, text="Listar archivos y directorios", variable=seleccion, value=1)
 radiobutton_lista.pack(anchor=tk.W)
 
-radiobutton_filtro = tk.Radiobutton(ventana_principal, text="Filtrar por extensión", variable=seleccion, value=2)
+radiobutton_filtro = tk.Radiobutton(frame_seleccion, text="Filtrar por extensión", variable=seleccion, value=2)
 radiobutton_filtro.pack(anchor=tk.W)
 
-entrada_extension = tk.Entry(ventana_principal)
-entrada_extension.pack(pady=5)
+frame_extension = tk.Frame(frame_seleccion)
+frame_extension.pack(pady=5)
 
-radiobutton_ordenamiento = tk.Radiobutton(ventana_principal, text="Ordenar la lista", variable=seleccion, value=3)
+etiqueta_extension = tk.Label(frame_extension, text="Extensión:")
+etiqueta_extension.pack(side=tk.LEFT)
+
+entrada_extension = tk.Entry(frame_extension)
+entrada_extension.pack(side=tk.LEFT)
+
+radiobutton_ordenamiento = tk.Radiobutton(frame_seleccion, text="Ordenar la lista", variable=seleccion, value=3)
 radiobutton_ordenamiento.pack(anchor=tk.W)
 
-lista_ordenamiento = tk.Listbox(ventana_principal)
+frame_ordenamiento = tk.Frame(frame_seleccion)
+frame_ordenamiento.pack()
+
+etiqueta_ordenamiento = tk.Label(frame_ordenamiento, text="Criterio de ordenamiento:")
+etiqueta_ordenamiento.pack(side=tk.LEFT)
+
+lista_ordenamiento = tk.Listbox(frame_ordenamiento)
 lista_ordenamiento.insert(tk.END, "nombre")
 lista_ordenamiento.insert(tk.END, "tamaño")
 lista_ordenamiento.insert(tk.END, "fecha")
-lista_ordenamiento.pack()
+lista_ordenamiento.pack(side=tk.LEFT)
 
 boton_mostrar_resultado = tk.Button(ventana_principal, text="Mostrar resultado", command=mostrar_resultado)
 boton_mostrar_resultado.pack(pady=10)
