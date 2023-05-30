@@ -1,4 +1,4 @@
-# Linux CLSD 🔒
+# Linux CLSD 🤖
 
 | [¿Quien somos?](#¿quien-somos) | [Acerca de](#acerca-de) | [Productos](#productos) | [Contacto](#contacto) |
 
