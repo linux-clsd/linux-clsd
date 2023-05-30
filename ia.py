@@ -3,6 +3,10 @@ import pyttsx3
 from datetime import datetime
 from gtts import gTTS
 import pygame
+import subprocess
+
+def open_file_manager():
+    subprocess.run(['nautilus'])
 
 # Inicializar el reconocimiento de voz y el sintetizador de voz
 recognizer = sr.Recognizer()
@@ -44,6 +48,10 @@ def assistant():
     while True:
         command = listen()
 
+        if 'abrir gestor de archivos' in command:
+            open_file_manager()
+            speak("Abriendo el gestor de archivos.")
+        
         if 'salir' in command:
             print("Hasta luego.")
             speak("Hasta luego.")
