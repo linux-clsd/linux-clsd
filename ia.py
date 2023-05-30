@@ -1,5 +1,6 @@
 import speech_recognition as sr
 import pyttsx3
+from datetime import datetime
 
 # Inicializar el reconocimiento de voz y el sintetizador de voz
 recognizer = sr.Recognizer()
