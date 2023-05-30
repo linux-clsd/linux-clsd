@@ -1,21 +1,31 @@
 import speech_recognition as sr
 import pyttsx3
 from datetime import datetime
+from gtts import gTTS
+import pygame
 
 # Inicializar el reconocimiento de voz y el sintetizador de voz
 recognizer = sr.Recognizer()
 engine = pyttsx3.init()
 
+# Ajustar la configuración del reconocimiento de voz
+recognizer.energy_threshold = 3000
+recognizer.dynamic_energy_adjustment_ratio = 1.5
+
+# Configurar el sintetizador de voz
+voices = engine.getProperty('voices')
+engine.setProperty('voice', voices[0].id)  # Puedes cambiar el índice para seleccionar una voz diferente
+
 def listen():
     with sr.Microphone() as source:
         print("Escuchando...")
-        recognizer.adjust_for_ambient_noise(source)
+        recognizer.adjust_for_ambient_noise(source, duration=1)
         audio = recognizer.listen(source)
 
     try:
         print("Procesando...")
         text = recognizer.recognize_google(audio, language='es')
-        return text
+        return text.lower()
     except sr.UnknownValueError:
         print("No se pudo reconocer el audio.")
         return ""
@@ -24,14 +34,15 @@ def listen():
         return ""
 
 def speak(text):
-    engine.setProperty('rate', 150)
-    engine.setProperty('volume', 0.8)
-    engine.say(text)
-    engine.runAndWait()
+    tts = gTTS(text, lang='es')
+    tts.save('output.mp3')
+    pygame.mixer.init()
+    pygame.mixer.music.load('output.mp3')
+    pygame.mixer.music.play()
 
 def assistant():
     while True:
-        command = listen().lower()
+        command = listen()
 
         if 'salir' in command:
             print("Hasta luego.")
@@ -42,9 +53,9 @@ def assistant():
             current_time = datetime.now().strftime("%H:%M")
             print(f"La hora actual es: {current_time}")
             speak(f"La hora actual es: {current_time}")
-
-        print("Comando no reconocido.")
-        speak("No entendí ese comando.")
+        else:
+            print("Comando no reconocido.")
+            speak("No entendí ese comando.")
 
 if __name__ == "__main__":
     print("Iniciando asistente de voz...")
