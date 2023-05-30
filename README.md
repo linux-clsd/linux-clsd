@@ -1,6 +1,6 @@
 # Linux CLSD 🤖
 
-| [¿Qué es Linux-CLSD?](#¿qué-es-linux-clsd) | [Changelog](#changelog) |
+| [¿Qué es linux-clsd?](#¿qué-es-linux-clsd) | [Como usar l-clsd](#como-usar-l-clsd-ᵥ₋₁₁) | [Changelog](#changelog) |
 
 ------------------------------------------------------------------------------------------------------
 ![GitHub Repo stars](https://img.shields.io/github/stars/linux-clsd/linux-clsd?style=plastic) ![GitHub followers](https://img.shields.io/github/followers/linux-clsd?style=plastic) ![Uptime Robot status](https://img.shields.io/uptimerobot/status/m794441368-3749853622b1e76cd00e5292?style=plastic) ![Uptime Robot ratio (7 days)](https://img.shields.io/uptimerobot/ratio/7/m794441368-3749853622b1e76cd00e5292?style=plastic) ![GitHub last commit](https://img.shields.io/github/last-commit/linux-clsd/linux-clsd?style=plastic) ![Github-version](https://img.shields.io/badge/version-1.1-green?style=plastic)
