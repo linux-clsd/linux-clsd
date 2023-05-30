@@ -35,7 +35,7 @@ En resumen, este script implementa un asistente de voz básico llamado "Linux-CL
 
 ## Changelog
 ### v.1.1  
-- Se han ajustado los parámetros energy_threshold y dynamic_energy_adjustment_ratio en el reconocedor de voz para mejorar la sensibilidad y adaptación al ruido ambiental.  
+- Se han ajustado los parámetros ``` energy_threshold ``` y ``` dynamic_energy_adjustment_ratio ``` en el reconocedor de voz para mejorar la sensibilidad y adaptación al ruido ambiental.  
 
 ### v.1.0
 - Hellow world
