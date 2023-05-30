@@ -25,6 +25,16 @@ En resumen, este script implementa un asistente de voz básico llamado "Linux-CL
 
 ## Changelog
 ### v.1.1  
-Se han ajustado los parámetros energy_threshold y dynamic_energy_adjustment_ratio en el reconocedor de voz para mejorar la sensibilidad y adaptación al ruido ambiental.
+- Se han ajustado los parámetros energy_threshold y dynamic_energy_adjustment_ratio en el reconocedor de voz para mejorar la sensibilidad y adaptación al ruido ambiental.
 ### v.1.0
-Hellow world
+- Hellow world
+
+## Como usar L-CLSD
+1. Instalar [Python](https://python.org)  
+1.1 instalar ``` pip ``` (normalmente viene instalado con Python) ( ``` pip install pip ``` )  
+1.2 Ejecuta ``` pip install SpeechRecognition && pip install pyttsx3 && pip install gTTS && pip install pygame ```
+2. Instalar [Git](https://git-scm.com/)
+3. Ejecuta ``` git clone https://github.com/linux-clsd/linux-clsd.git ```
+4. Utiliza ``` chmod -R +w linux-clsd ``` para dar permisos de escritura en todo el directorio /linux-clsd 
+5. Ahora ejecuta ``` cd linux-clsd ```
+6. Para terminar usa ``` python3 ia.py ```
