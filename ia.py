@@ -61,3 +61,5 @@ if __name__ == "__main__":
     print("Iniciando asistente de voz...")
     speak("Hola, ¿en qué puedo ayudarte?")
     assistant()
+
+# Updated to actual version -- v-1.1
