@@ -27,6 +27,7 @@ En resumen, este script implementa un asistente de voz básico llamado "Linux-CL
 
 ## Como usar L-CLSD
 > v-1.1
+
 1. Instalar [Python](https://python.org)  
 1.1 instalar ``` pip ``` (normalmente viene instalado con Python) ( ``` pip install pip ``` )  
 1.2 Ejecuta ``` pip install SpeechRecognition && pip install pyttsx3 && pip install gTTS && pip install pygame ```
